@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://ruby.taobao.org'
 
 gem 'rails', '3.2.16'
 
@@ -6,11 +6,11 @@ gem 'rails', '3.2.16'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group:production do
-    gem'pg'
-    gem'heroku'
+ gem 'pg'
+ gem 'heroku'
 end
 group:development,:test do
-    gem'sqlite3'
+ gem 'sqlite3'
 end
 
 
